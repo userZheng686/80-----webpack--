@@ -1,0 +1,21 @@
+{
+  "name": "webpack-source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./fc_webpack_2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/parser": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/traverse": "^7.5.0"
+  }
+}
